@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <title>Creator</title>
+   <style>
+     }
+@keyframes fadeIn{
+   from{
+      opacity:0;
+   }
+   to {
+      opacity:1;
+   }
+}
+
+body {
+   animation:fadeIn 3s ease-in;
+}
+      h1 {
+         background-color: #dfaaf2;
+         text-align: center;
+         font-size: 30px;
+      }
+      body {
+         background-image: url('purple.jpg');
+         background-repeat: no-repeat;
+         background-attachment: fixed;
+         background-size: cover;
+      }
+      nav{
+   background-color: #c4a2e8;
+   padding: 15px;
+}
+nav ul{
+   list-style: none;
+   margin:0;
+   padding: 0;
+   display: flex;
+   justify-content:center;
+}
+ nav ul li{
+    margin-right:25px;
+ }
+   nav ul li a{
+color: purple;
+text-decoration: none;
+font-size:25px;
+font-weight:bold;
+text-transform: uppercase;
+padding:5px 10px;
+border-radius:5px;
+}
+nav ul li a:hover{
+   background-color:pink;
+   padding:15px;
+}
+p {
+   font-size: 25px;
+   text-align: center;
+   background-color: #dfaaf2;
+   padding: 15px;
+   font-weight: bold;
+}
+ .person {
+    text-align: center;
+ }
+   </style>
+</head>
+<body>
+   <nav>
+      <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="Family.html">Family Tree</a></li>
+      <li><a href="FB.html">FB</a></li>
+      <li><a href="creator.HTML">Creator</a></li>
+      </ul>
+   </nav>
+<h1>Introducing Myself!</h1>
+<p>I'm the creator, and Im a student in SHS San Nicolas. Im in grade 11, and Im 16 years old. I was born on September 12, 2007 and Im a Virgo. Im a honor students from Eastern Bacoor National Highschool.</p>
+<div class="person">
+   <a href="https://www.facebook.com/emerald.bendol">
+<img src="emem.jpg" alt="BENDOL" title="Creator`s Picture" width="450" height="400"</a></div>
+</body>
+
+</html>
